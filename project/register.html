@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>register form</title>
+
+   <!-- custom css file link  -->
+   <link href="register.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+   <div class="form-container">
+
+      <form action="done.html" method="post">
+         <h3>register now</h3>
+         <input type="text" name="name" required placeholder="enter your name">
+         <input type="email" name="email" required placeholder="enter your email">
+         <input type="text" name="phone" required placeholder="enter your phone">
+         <select name="blood_group" id="bg">
+           <option value="select your blood group">select your blood group</option>
+           <option value="O-">O-</option>
+           <option value="O+">O+</option>
+           <option value="A-">A-</option>
+           <option value="A+">A+</option>
+           <option value="O-">B-</option>
+           <option value="O+">B+</option>
+           <option value="A-">AB-</option>
+           <option value="A+">AB+</option>
+         </select>
+         <input type="age" name="age" required placeholder="enter your age">
+         <input type="submit" name="submit" value="register now" class="form-btn">
+         <p>already have an account? <a href="login.html">login now</a></p>
+      </form>
+
+   </div>
+
+</body>
+
+</html>
